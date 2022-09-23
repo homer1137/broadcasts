@@ -51,8 +51,6 @@ function App() {
     }
   };
 
-  console.log('activeVid', activeVideo)
-
   const getData = async () => {
     const options = {
       method: "GET",
@@ -77,6 +75,7 @@ function App() {
       <div className="player-wrapper">
         <ReactPlayer
           autoplay
+          muted
           className="react-player"
           playing={true}
           controls
