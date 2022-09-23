@@ -42,13 +42,16 @@ function App() {
 
   const getVideo = (arr) => {
     const currenLanguage = window.navigator.language;
+    console.log('currLanguage', currenLanguage)
     const video = arr.filter((item) => item.language === currenLanguage);
-    if (video.lenth) {
+    if (video.length) {
       return video[0];
     } else {
       return arr[0];
     }
   };
+
+  console.log('activeVid', activeVideo)
 
   const getData = async () => {
     const options = {
