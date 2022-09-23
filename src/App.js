@@ -73,7 +73,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Привет друзья!</h1>
+      <h1>Трансляции</h1>
       <div className="player-wrapper">
         <ReactPlayer
           autoplay
