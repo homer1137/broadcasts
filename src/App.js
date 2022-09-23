@@ -37,7 +37,7 @@ function App() {
     id: 5,
     title: "Spain",
     language: "sp",
-    link: "https://www.youtube.com/embed/FOxf1iBFgdM?autoplay=1",
+    link: "https://www.youtube.com/embed/FOxf1iBFgdM?autoplay=1&enablejsapi=1",
   };
 
   const getVideo = (arr) => {
